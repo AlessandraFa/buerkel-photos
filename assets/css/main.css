@@ -69,66 +69,62 @@
 
 #hl1{
   position: absolute;
-  top:49vh;
-  width: 33vw;
-}
-
-#vl1{
-  height: 30vh;
-  position: absolute;
-  top:49vh;
-  left: 33vw;
+  top:74vh;
+  width: 100vw;
+  right:17vw;
 }
 
 #hl2{
   position: absolute;
   top:117vh;
-  width: 46.54vw;
-  margin-left: 37vw;
+  width: 53vw;
+  margin-left: 30vw;
 }
 
-#vl3{
+#vl1{
+  height: 26vh;
   position: absolute;
-  top:117vh;
-  height: 83vh;
-  margin-left: 37vw;
+  bottom: 0;
+  left: 83vw;
+  z-index: 15;
 }
 
 #vl2{
   height: 18vh;
   position: absolute;
   top:100vh;
-  left: 83vw;
+  left:83vw;
 }
 
-.arrow-right {
+#vl3{
+  position: absolute;
+  top:117vh;
+  height: 280vh;
+  margin-left: 30vw;
+}
+
+#about-geometry{
   width: 0; 
   height: 0; 
-  border-bottom: 25vh solid transparent;
-  border-right: 33vw solid var(--color-primary);
+  border-top: 55vh solid transparent;
+  border-left: 30vw solid var(--color-yellow);
   position: absolute;
-  left: -2vh;
-  top:50vh;
-  z-index: -20;
+  left: 0;
+  top:140vh;
+  z-index: -1;
 }
-.arrow-left {
+
+#buerkel-geometry{
   width: 0; 
   height: 0; 
-  border-bottom: 8vh solid transparent;
-  border-left: 3vw solid var(--color-default);
-}
-#arr-home{
+  border-bottom: 30.5vh solid transparent;
+  border-right: 21.5vw solid var(--color-green);
   position: absolute;
-  top:66vh;
-  left: 33.2vw;
-  z-index: -20;
+  right: 70vw;
+  top:258vh;
+  z-index: -1;
 }
-#arr-about{
-  position: absolute;
-  top:180vh;
-  left: 38vw;
-  z-index: -20;
-}
+
 /*--------------------------------------------------------------
 # Next Buttons
 --------------------------------------------------------------*/
@@ -143,14 +139,14 @@
 #nxt-home{
   position: absolute;
   bottom: 0;
-  left: 33.3vw;
-  top: 62vh;
+  left: 84vw;
+  top: 88vh;
 }
 
 #nxt-about{
   position: absolute;
   bottom: 0;
-  left: 38vw;
+  left: 31vw;
   top: 176vh;
 }
 
@@ -158,6 +154,46 @@
   color: var(--color-green);
 }
 
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-bottom: 25vh solid transparent;
+  border-right: 33.5vw solid var(--color-primary);
+  position: absolute;
+  left: 50vw;
+  top:75vh;
+  z-index: 0;
+}
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-bottom: 8vh solid transparent;
+  border-left: 3vw solid var(--color-default);
+}
+#arr-home{
+  position: absolute;
+  top:92vh;
+  left: 83.5vw;
+}
+#arr-about{
+  position: absolute;
+  top:180vh;
+  left: 31vw;
+  z-index: -20;
+}
+
+#nxt-3{
+  position: absolute;
+  bottom: 0;
+  left: 31vw;
+  top: 274vh;
+}
+
+#arr-3{
+  position: absolute;
+  top:278vh;
+  left: 31vw;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -281,7 +317,7 @@ section {
 .header {
   color: var(--color-default);
   background-color: var(--color-background);
-  padding: 15px 0;
+  height: 10vh;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -907,9 +943,9 @@ section {
 .hero {
   background-color: #f8f8f8;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   padding:0;
-  margin-top: -90px;
+  margin-top: -10vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -923,7 +959,6 @@ section {
 }
 
 .hero img {
-  position: ;
   inset: 0;
   display: block;
   width: 50vw;
@@ -974,7 +1009,7 @@ section {
 .about .container{
   height: inherit;
   padding-top: 10vh;
-
+  margin-left: 6vw;
 }
 
 .about .row{
@@ -1023,11 +1058,31 @@ section {
 }
 
 #about-index{
-  margin-top: 0;
+  position: absolute !important;
+  left: 10vw;
+  width: 18vw;
+  top:115vh;
+  text-align: right;
 }
 
 #about-proj{
   margin-top: 0;
+}
+
+#about-index ul{
+  list-style: none;
+}
+
+#about-par{
+  position: absolute !important;
+  left: 20vw;
+  width: 50vw;
+  top:100vh;
+}
+
+#about-par p, #about-par h2{
+  margin-left: 10vh;
+  margin-right: 10vh;
 }
 
 #about-proj h2{
@@ -1036,6 +1091,32 @@ section {
 
 @media (max-width: 768px) {
 
+}
+
+/* Buerkel Section
+------------------------------*/
+.sect-3{
+  --color-background: var(--color-background);
+  height: 92vh;
+}
+
+.sect-3 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 6vh;
+  text-transform: uppercase;
+}
+
+.sect-3 .content p:last-child {
+  margin-bottom: 0;
+}
+
+#buerkel-portr{
+  position: absolute;
+  right: 70vw;
+  z-index: -1;
+  height: 60vh;
+  top:198vh;
 }
 
 /* Stats Section - Home Page
