@@ -70,8 +70,8 @@
 #hl1{
   position: absolute;
   top:74vh;
-  width: 100vw;
-  right:17vw;
+  width: 83vw;
+  left: 0;
 }
 
 #hl2{
@@ -79,6 +79,13 @@
   top:117vh;
   width: 53vw;
   margin-left: 30vw;
+}
+
+#hl3{
+  position: absolute;
+  top:267vh;
+  width: 50vw;
+  left: 30vw;
 }
 
 #vl1{
@@ -106,7 +113,7 @@
 #about-geometry{
   width: 0; 
   height: 0; 
-  border-top: 55vh solid transparent;
+  border-top: 59vh solid transparent;
   border-left: 30vw solid var(--color-yellow);
   position: absolute;
   left: 0;
@@ -120,9 +127,57 @@
   border-bottom: 30.5vh solid transparent;
   border-right: 21.5vw solid var(--color-green);
   position: absolute;
-  right: 70vw;
+  left:9vw;
   top:258vh;
   z-index: -1;
+}
+
+.dot {
+  height: 140px;
+  width: 140px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 10;
+}
+
+#circle1-buer{
+  position: absolute;
+  top: 260vh;
+  left: 43vw;
+}
+
+#circle2-buer{
+  position: absolute;
+  top: 260vh;
+  left: 53vw;
+}
+
+#circle3-buer{
+  position: absolute;
+  top: 260vh;
+  left: 63vw;
+}
+
+#circle4-buer{
+  position: absolute;
+  top: 260vh;
+  left: 73vw;
+}
+@media (max-width: 1512px) { 
+  #about-geometry{
+    border-top: 59.1vh solid transparent;
+  }
+  #buerkel-geometry{
+    border-bottom: 29vh solid transparent;
+    border-right: 23.4vw solid var(--color-green);
+    left:7vw;
+  }
+  .dot {
+    height: 120px;
+    width: 120px;
+  }
+  
 }
 
 /*--------------------------------------------------------------
@@ -189,9 +244,22 @@
   top: 274vh;
 }
 
+#nxt-4{
+  position: absolute;
+  bottom: 0;
+  left: 31vw;
+  top: 374vh;
+}
+
 #arr-3{
   position: absolute;
   top:278vh;
+  left: 31vw;
+}
+
+#arr-4{
+  position: absolute;
+  top:378vh;
   left: 31vw;
 }
 /*--------------------------------------------------------------
@@ -371,6 +439,12 @@ section {
 
   .header .navmenu {
     order: 3;
+  }
+}
+
+@media (max-width: 1512px) { 
+  .header{
+    height: 11vh!important;
   }
 }
 
@@ -943,7 +1017,7 @@ section {
 .hero {
   background-color: #f8f8f8;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding:0;
   margin-top: -10vh;
   display: flex;
@@ -998,12 +1072,17 @@ section {
   }
 }
 
+@media (max-width: 1512px) { 
+  .hero {
+    margin-top: -11vh;
+  }
+}
 
 /* About Section - Home Page
 ------------------------------*/
 .about {
   --color-background: var(--color-background);
-  height: 100vh;
+  min-height: 91vh;
 }
 
 .about .container{
@@ -1089,15 +1168,18 @@ section {
   padding-bottom: 4vh;
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 1512px) { 
+  .about{
+    min-height: 90vh;
+  }
 }
 
 /* Buerkel Section
 ------------------------------*/
 .sect-3{
   --color-background: var(--color-background);
-  height: 92vh;
+  min-height: 91vh;
+  margin-top: 11vh;
 }
 
 .sect-3 .content h2 {
@@ -1107,71 +1189,117 @@ section {
   text-transform: uppercase;
 }
 
+.sect-3 .content .row{
+  position: absolute;
+  left: 40vw;
+  top:204vh;
+  width: 50vw;
+}
+
 .sect-3 .content p:last-child {
   margin-bottom: 0;
 }
 
 #buerkel-portr{
   position: absolute;
-  right: 70vw;
+  left:9vw;
   z-index: -1;
-  height: 60vh;
-  top:198vh;
+  width: 21vw;
+  top:199vh;
+}
+@media (max-width: 1512px) { 
+  #buerkel-portr{
+    left:7vw;
+    width: 23.4vw;
+  }
+  
+  .sect-3{
+    min-height: 89vh;
+    margin-top: 11vh;
+  }
 }
 
-/* Stats Section - Home Page
+/* Collection Section
 ------------------------------*/
-.stats {
-  --color-default: #ffffff;
-  --color-default-rgb: 255, 255, 255;
-  --color-background: #000000;
-  --color-background-rgb: 0, 0, 0;
-  position: relative;
-  padding: 120px 0;
+.sect-4{
+  --color-background: var(--color-background);
+  min-height: 91vh;
+  margin-top: 11vh;
 }
 
-.stats img {
+.sect-4 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 6vh;
+  text-transform: uppercase;
+}
+
+.sect-4 .content .row{
   position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  z-index: 1;
+  left: 40vw;
+  top:304vh;
+  width: 50vw;
 }
 
-.stats:before {
-  content: "";
-  background: rgba(var(--color-background-rgb), 0.6);
+.sect-4 .content p:last-child {
+  margin-bottom: 0;
+}
+
+#buerkel-portr{
   position: absolute;
-  inset: 0;
-  z-index: 2;
+  left:9vw;
+  z-index: -1;
+  width: 21vw;
+  top:199vh;
+}
+@media (max-width: 1512px) { 
+  #buerkel-portr{
+    left:7vw;
+    width: 23.4vw;
+  }
+  
+  .sect-4{
+    min-height: 89vh;
+    margin-top: 11vh;
+  }
 }
 
-.stats .container {
-  position: relative;
-  z-index: 3;
-}
 
-.stats .stats-item {
+.stats-item {
   padding: 30px;
   width: 100%;
 }
 
-.stats .stats-item span {
-  font-size: 48px;
+.stats-item span {
+  font-size: 5vh;
   display: block;
-  color: var(--color-default);
-  font-weight: 700;
+  font-weight: 900;
+  font-family: var(--font-primary);
+  padding-bottom: 0;
 }
 
-.stats .stats-item p {
+#stats1 {
+  color: var(--color-green);
+}
+
+#stats2 {
+  color: var(--color-primary);
+}
+
+#stats3 {
+  color: var(--color-yellow);
+}
+
+.stats-item span:nth-of-type(2) {
+  color: var(--color-yellow);
+}
+
+.stats-item p {
   padding: 0;
   margin: 0;
-  font-family: var(--font-primary);
-  font-size: 16px;
-  font-weight: 700;
+  font-family: var(--font-default);
+  font-size: 2.5vh;
+  font-weight: 400;
   color: rgba(var(--color-default-rgb), 0.6);
 }
 
