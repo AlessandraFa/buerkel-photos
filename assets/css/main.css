@@ -89,13 +89,13 @@
 }
 #hl4{
   position: absolute;
-  top:396vh;
+  top:496vh;
   width: 25vw;
   left: 5vw;
 }
 #hl5{
   position: absolute;
-  top:480vh;
+  top:580vh;
   width: 26vw;
   left: 5vw;
   z-index: -10;
@@ -119,18 +119,18 @@
 #vl3{
   position: absolute;
   top:117vh;
-  height: 280vh;
+  height: 296vh;
   margin-left: 30vw;
 }
 #vl4{
   position: absolute;
-  top:480vh;
+  top:580vh;
   height: 32vh;
   left: 31vw;
 }
 #vl5{
   position: absolute;
-  top:396vh;
+  top:496vh;
   height: 90vh;
   left: 5vw;
   z-index: -10;
@@ -138,17 +138,17 @@
 
 #hl-6{
   position: absolute;
-  left: 31vw;
-  top:512vh;
-  width: 62vw;
+  left: 30vw;
+  top:412vh;
+  width: 63vw;
 }
 
 #vl-6{
   position: absolute;
   left: 93vw;
-  height: 100vh;
-  top:512vh;
-
+  height: 300vh;
+  top:412vh;
+  z-index: -1;
 }
 
 #about-geometry{
@@ -180,8 +180,29 @@
   border-left: 30vw solid var(--color-yellow);
   position: absolute;
   left: 0;
-  top:433vh;
+  top:535vh;
   z-index: -1;
+}
+#questions-geometry{
+  width: 0; 
+  height: 0; 
+  border-top: 59vh solid transparent;
+  border-right: 50vw solid var(--color-green);
+  position: absolute;
+  left: 43vw;
+  top:637vh;
+  z-index: -1;
+}
+
+#questions-geometry1{
+  width: 0; 
+  height: 0; 
+  border-top: 15vh solid transparent;
+  border-right: 18vw solid var(--color-primary);
+  position: absolute;
+  left: 75.2vw;
+  top:598vh;
+  z-index: -3;
 }
 
 .dot {
@@ -196,7 +217,7 @@
 .dot-khi {
   height: 140px;
   width: 140px;
-  background-color: var(--color-primary);
+  background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   z-index: 10;
@@ -228,19 +249,19 @@
 
 #circle2-khi{
   position: absolute;
-  top: 520vh;
+  top: 420vh;
   left: 89.5vw;
 }
 
 #circle3-khi{
   position: absolute;
-  top: 540vh;
+  top: 440vh;
   left: 89.5vw;
 }
 
 #circle4-khi{
   position: absolute;
-  top: 560vh;
+  top: 460vh;
   left: 89.5vw;
 }
 
@@ -350,27 +371,47 @@
 #nxt-5{
   position: absolute;
   bottom: 0;
-  left: 31.5vw;
-  top: 479.5vh;
+  left: 88.2vw;
+  top: 568.5vh;
+  z-index: 10;
 }
 
 #arr-5{
   position: absolute;
-  top:483.5vh;
-  left: 31vw;
+  top:572.5vh;
+  left: 90.1vw;
+  border-bottom: 8vh solid transparent !important;
+  border-right: 3vw solid var(--color-default) ;
 }
 
 #nxt-6{
   position: absolute;
   bottom: 0;
-  left: 31.5vw;
-  top: 575vh;
+  left: 88.2vw;
+  top: 476vh;
 }
 
 #arr-6{
   position: absolute;
-  top:579.5vh;
-  left: 31vw;
+  top:480vh;
+  left: 90.1vw;
+  border-bottom: 8vh solid transparent !important;
+  border-right: 3vw solid var(--color-default) ;
+}
+
+#nxt-7{
+  position: absolute;
+  bottom: 0;
+  left: 88.2vw;
+  top: 673vh;
+}
+
+#arr-7{
+  position: absolute;
+  top:677vh;
+  left: 90.1vw;
+  border-bottom: 8vh solid transparent !important;
+  border-right: 3vw solid var(--color-default) ;
 }
 /*--------------------------------------------------------------
 # General
@@ -379,7 +420,12 @@ body {
   color: var(--color-default);
   background-color: #f8f8f8 !important;
   font-family: var(--font-default);
-  font-size: 2em;
+  font-size: 3em;
+}
+
+body p{
+  font-size: 1.2em;
+  font-family: var(--font-default);
 }
 
 a {
@@ -1372,8 +1418,7 @@ section {
 ------------------------------*/
 .sect-5{
   --color-background: var(--color-background);
-  min-height: 91vh;
-  margin-top: 11vh;
+  min-height: 96vh;
 }
 
 .sect-5 .content h2 {
@@ -1464,11 +1509,19 @@ section {
   margin-top: 11vh;
 }
 
+.sect-6 .container{
+  max-width: 90vw;
+}
+
 .sect-6 .content h2 {
   color: var(--color-secondary);
   font-weight: 600;
   font-size: 4em;
   text-transform: uppercase;
+}
+
+#khi-descript{
+  padding: 4vh 5vw 0 3vw;
 }
 
 #overlay {
@@ -1481,7 +1534,7 @@ section {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  z-index: 10; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
 }
 #overlay img{
@@ -1492,16 +1545,28 @@ section {
 
 #inv-btn{
   border:None;
-  background-color: transparent;
-  font-family: var(--font-default);
+  font-family: var(--font-primary);
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
+  position: relative;
+  top:-6.5vh;
+  left: 26vh;
+  color: var(--color-primary);
+  font-size: 1.8em;
+  padding: 0.7em;
+  z-index: 6;
+  background-color: transparent;
+}
+
+#inv-btn:hover{
+  color: #ebaa9d;
 }
 
 * {box-sizing: border-box;}
 
 .img-zoom-container {
   position: relative;
+  padding-top: 5vh;
 }
 
 .img-zoom-lens {
@@ -1513,42 +1578,186 @@ section {
 }
 
 .img-zoom-result {
-  border: 4px solid var(--color-yellow);
+  border: 3px solid #887474;
   /*set the size of the result div:*/
-  width: 500px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   position: absolute;
   top:57vh;
-  left:50vw;
+  left:58vw;
+  box-shadow: -3px -3px 9px  rgba(0, 0, 0, 0.2);
 }
 
 #inv-preview{
   height: 30vh;
-  width: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 0;
+  padding: 0;
 }
 
 #khi-1,#khi-2{
   height: 30vh;
-  width: 20vw;
   object-fit: cover;
   object-position: center left;
-  margin-top: 3vh;
+  margin-top: 3vh;}
+
+#prev-khi{
+  padding: 0;
 }
 
-#khi-ph1 span {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #333;
-  color: #fff;
-  z-index: 100;
+#khi-1{
+  width: 100%;
 }
 
-#khi-ph1:hover span {
-  display: block;
+
+#khi-ph1{
+  padding: 0;
+  margin-right: 0;
+  margin-top: 4vh;
 }
+
+#khi-ph2{
+  padding: 0;
+  margin-right: 0;
+  margin-top: 6vh;
+}
+#khi-2{
+  height: 20vh;
+  width: 15vw;
+}
+
+#photothek-khi-left{
+  background-color: var(--color-primary);
+  height: 56vh;
+  padding: 0;
+}
+
+#stats-khi{
+  color: var(--color-box-background);
+  margin-bottom: 0;
+}
+.stats-item p{
+  color: var(--color-box-background);
+}
+
+/* Research Questions - Home Page
+------------------------------*/
+
+.sect-7{
+  --color-background: var(--color-background);
+  min-height: 94vh;
+  margin-top: 11vh;
+}
+
+.sect-7 .container{
+  max-width: 90vw;
+}
+
+.sect-7 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+#research-q-box{
+  width:17.75vw;
+  height: 45vh;
+  object-fit: cover;
+  object-position: top;
+  margin-top: -6.2vh;
+  margin-left: 5vw;
+}
+
+#research-right{
+  margin:0;
+}
+
+
+.main-q p{
+  padding-right:28vw;
+}
+
+#q-1 h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  padding-left: 3vh;
+
+}
+
+#q-2 h3{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: var(--font-primary);
+  color: var(--color-yellow);
+  padding-left: 3vh;
+}
+#q-1,#q-2{
+  padding: 0;
+}
+
+.sect-7 .card{
+  width: 35%;
+  margin:1vh;
+  border-radius: 0;
+  border: None;
+  background-color: var(--color-box-background);
+  z-index: -2;
+}
+.card-title{
+  padding-top: 2vh;
+}
+.sect-7 .card-body{
+  padding: 0!important;
+}
+.sect-7 ul{
+  padding-right:4vh !important;
+}
+
+/* Data Overview - Home Page
+------------------------------*/
+
+.sect-8{
+  --color-background: var(--color-background);
+  min-height: 94vh;
+  margin-top: 11vh;
+}
+
+.sect-8 .container{
+  max-width: 90vw;
+}
+
+.sect-8 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+/* Data Visualization - Home Page
+------------------------------*/
+
+.sect-9{
+  --color-background: var(--color-background);
+  min-height: 94vh;
+  margin-top: 11vh;
+}
+
+.sect-9 .container{
+  max-width: 90vw;
+}
+
+.sect-9 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
 /* Services Section - Home Page
 ------------------------------*/
 .services .service-item {
