@@ -101,6 +101,14 @@
   z-index: -10;
 }
 
+#hl8{
+  position: absolute;
+  top:718vh;
+  width: 87vw;
+  left: 6vw;
+  z-index: -10;
+}
+
 #vl1{
   height: 26vh;
   position: absolute;
@@ -146,9 +154,16 @@
 #vl-6{
   position: absolute;
   left: 93vw;
-  height: 300vh;
+  height: 307vh;
   top:412vh;
-  z-index: -1;
+  z-index: 10;
+}
+#vl8{
+  position: absolute;
+  left:6vw;
+  height: 500vh;
+  top:718vh;
+
 }
 
 #about-geometry{
@@ -197,11 +212,22 @@
 #questions-geometry1{
   width: 0; 
   height: 0; 
-  border-top: 15vh solid transparent;
-  border-right: 18vw solid var(--color-primary);
+  border-top: 18vh solid transparent;
+  border-right: 16vw solid var(--color-primary);
   position: absolute;
-  left: 75.2vw;
-  top:598vh;
+  left: 77.5vw;
+  top:597vh;
+  z-index: -3;
+}
+
+#data-pres-geometry{
+  width: 0; 
+  height: 0; 
+  border-bottom: 50vh solid transparent;
+  border-left: 40vw solid var(--color-yellow);
+  position: absolute;
+  left: 6vw;
+  top:719vh;
   z-index: -3;
 }
 
@@ -412,6 +438,63 @@
   left: 90.1vw;
   border-bottom: 8vh solid transparent !important;
   border-right: 3vw solid var(--color-default) ;
+}
+#nxt-8{
+  position: absolute;
+  bottom: 0;
+  left: 6.8vw;
+  top: 773vh;
+}
+
+#arr-8{
+  position: absolute;
+  top:777vh;
+  left: 6vw;
+  border-bottom: 8vh solid transparent !important;
+  border-left: 3vw solid var(--color-default) ;
+}
+#nxt-9{
+  position: absolute;
+  bottom: 0;
+  left: 6.8vw;
+  top: 881vh;
+}
+
+#arr-9{
+  position: absolute;
+  top:885vh;
+  left: 6vw;
+  border-bottom: 8vh solid transparent !important;
+  border-left: 3vw solid var(--color-default) ;
+}
+#nxt-10{
+  position: absolute;
+  bottom: 0;
+  left: 6.6vw;
+  top: 990vh;
+}
+
+#arr-10{
+  position: absolute;
+  top:994vh;
+  left: 6vw;
+  border-bottom: 8vh solid transparent !important;
+  border-left: 3vw solid var(--color-default) ;
+}
+
+#nxt-11{
+  position: absolute;
+  bottom: 0;
+  left: 6.6vw;
+  top: 1090vh;
+}
+
+#arr-11{
+  position: absolute;
+  top:1094vh;
+  left: 6vw;
+  border-bottom: 8vh solid transparent !important;
+  border-left: 3vw solid var(--color-default) ;
 }
 /*--------------------------------------------------------------
 # General
@@ -1736,6 +1819,12 @@ section {
   font-weight: 600;
   font-size: 4em;
   text-transform: uppercase;
+  text-align: right;
+  padding:7vh; 
+  padding-right: 10vh;
+}
+#data-pres-left .row{
+  padding: 22vh 5vw 2vh 4vw;
 }
 
 /* Data Visualization - Home Page
@@ -1756,7 +1845,158 @@ section {
   font-weight: 600;
   font-size: 4em;
   text-transform: uppercase;
+  padding-left: vw;
+  background-color: var(--color-box-background);
+  z-index: 100;
+  padding-top: 1vh;
 }
+
+#data-viz h3{
+  font-size: 3.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-primary);
+  padding:2vh 0 0 4vw;
+}
+
+.main-viz1 img{
+  padding-bottom: 4vh;
+}
+
+.main-viz1 p{
+  padding: 0 16vw 0 15vw;
+  text-align: right;
+}
+
+/* Data Visualization 2 - Home Page
+------------------------------*/
+
+.sect-10{
+  --color-background: var(--color-background);
+  min-height: 94vh;
+  margin-top: 11vh;
+}
+
+.sect-10 .container{
+  max-width: 90vw;
+}
+
+.sect-10 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 4em;
+  text-transform: uppercase;
+  padding-left: vw;
+  background-color: var(--color-box-background);
+  z-index: 100;
+  padding-top: 1vh;
+}
+
+#data-viz2 h3{
+  font-size: 3.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-primary);
+  padding:2vh 0 0 4vw;
+}
+
+#data-viz2 img{
+  max-height: 85vh;
+  width: auto;
+}
+
+.main-viz2 p{
+  padding-left: 4vw;
+}
+
+
+/* Data Visualization 3 - Home Page
+------------------------------*/
+
+.sect-11{
+  --color-background: var(--color-background);
+  min-height: 94vh;
+  margin-top: 11vh;
+}
+
+.sect-11 .container{
+  max-width: 90vw;
+}
+
+.sect-11 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 4em;
+  text-transform: uppercase;
+  padding-left: vw;
+  background-color: var(--color-box-background);
+  z-index: 100;
+  padding-top: 1vh;
+}
+
+#data-viz3 h3{
+  font-size: 3.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-primary);
+  padding:2vh 0 0 4vw;
+}
+
+#data-viz3 img{
+  width: 85vw;
+  height: auto;
+  padding-left: 12vw;
+  padding-top: 5vh;
+}
+
+#data-viz3-left p{
+  padding-top: 4vh;
+}
+
+
+/* Data Visualization 4 - Home Page
+------------------------------*/
+
+.sect-12{
+  --color-background: var(--color-background);
+  min-height: 94vh;
+  margin-top: 11vh;
+}
+
+.sect-12 .container{
+  max-width: 90vw;
+}
+
+.sect-12 .content h2 {
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  padding-left: vw;
+  background-color: var(--color-box-background);
+  z-index: 100;
+  padding-top: 1vh;
+}
+
+#data-viz4 h3{
+  font-size: 3.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-primary);
+  padding:2vh 0 0 4vw;
+}
+
+#data-viz4 img{
+  width: 85vw;
+  height: auto;
+  padding-left: 12vw;
+  padding-top: 5vh;
+}
+
+#data-viz4-left p{
+  padding-top: 4vh;
+}
+
 
 /* Services Section - Home Page
 ------------------------------*/
