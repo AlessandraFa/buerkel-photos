@@ -181,8 +181,8 @@
 #vl9{
   position: absolute;
   left:96vw;
-  height: 700vh;
-  top:1199vh;
+  height: 600vh;
+  top:1292vh;
   z-index: -10;
 }
 
@@ -706,6 +706,25 @@
   border-right: 4vw solid var(--color-default) ;
 }
 
+#nxt-17{
+  position: absolute;
+  bottom: 0;
+  left: 45.5vw;
+  top: 2000vh;
+  text-align: center;
+  color: var(--color-green) !important;
+  font-size: 1.6em;
+  
+}
+
+#arr-17{
+  position: absolute;
+  top:2008vh;
+  left: 47vw;
+  border-top: 5vh solid var(--color-green) ;
+  border-right: 2.5vw solid transparent;
+  border-left: 2.5vw solid transparent;
+}
 @media (max-width: 1512px) { 
   #nxt-about{
     top: 175vh;
@@ -889,6 +908,26 @@
     border-bottom: 8vh solid transparent !important;
     border-right: 3vw solid var(--color-default) ;
   }
+
+#nxt-17{
+  position: absolute;
+  bottom: 0;
+  left: 44.5vw;
+  top: 2035vh;
+  text-align: center;
+  color: var(--color-green) !important;
+  font-size: 1.6em;
+  
+}
+
+#arr-17{
+  position: absolute;
+  top:2044vh;
+  left: 47vw;
+  border-top: 5vh solid var(--color-green) ;
+  border-right: 2.5vw solid transparent;
+  border-left: 2.5vw solid transparent;
+}
 }
 
 /*--------------------------------------------------------------
@@ -989,23 +1028,31 @@ section {
   z-index: 997;
 }
 
-.header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
-}
-
 .header .logo h1 {
-  font-size: 2em;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
   margin-left: 15px;
   font-weight: 600;
-  color: var(--color-secondary);
+  padding-top: 1vh;
+  color: var(--color-default);
+  text-transform: uppercase;
+}
+
+#b-lens{
+  color: var(--color-primary);
+  font-size: inherit;
+  letter-spacing: inherit;
+  margin-left: inherit;
+  font-weight: 900;
+  padding-top: inherit;
+  text-transform: uppercase;
 }
 
 .header .logo span {
   color: var(--color-primary);
-  font-size: 2em;
+  font-size: 3.5em;
   font-weight: 600;
-  padding-left: 3px;
+  margin-top: -0.6em;
 }
 
 
@@ -2214,7 +2261,7 @@ section {
   object-fit: cover;
   object-position: top;
   margin-top: -6.2vh;
-  margin-left: 5.4vw;
+  margin-left: 5vw;
 }
 
 #research-right{
@@ -2271,7 +2318,7 @@ section {
     font-size: 1.05em !important;
   }
   #research-q-box{
-    margin-left: 4.5vw;
+    margin-left: 4vw;
     margin-top: 0.2vh !important;
   }
 }
@@ -2950,8 +2997,7 @@ section {
   padding-right: 50px;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link,
-.portfolio .portfolio-item .portfolio-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link{
   position: absolute;
   right: 50px;
   font-size: 24px;
@@ -2961,8 +3007,7 @@ section {
   line-height: 0;
 }
 
-.portfolio .portfolio-item .portfolio-info .preview-link:hover,
-.portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover{
   color: var(--color-primary);
 }
 
@@ -2974,6 +3019,25 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
+}
+
+.glightbox-clean .gslide-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: var(--font-primary);
+  color: var(--color-background) !important;
+  margin-bottom: 19px;
+  line-height: 1.4em;
+  text-align: center;
+  padding-top: 1vh;
+}
+
+.gdesc-inner{
+  background-color: var(--color-default);
+}
+
+.bi::before{
+  color: var(--color-background);
 }
 
 
@@ -3030,9 +3094,23 @@ section {
 
 /* Team Section - Home Page
 ------------------------------*/
-.team {
-  --color-background: #f4f4f4;
-  --color-box-background-rgb: 0, 0, 0;
+.team{
+  --color-background: var(--color-green);
+  min-height: 45vh;
+  margin-top: 11vh;
+}
+
+.team .container{
+  max-width: 90vw;
+}
+
+.team h2 {
+  color: var(--color-box-background);
+  font-weight: 600;
+  font-size: 3.5em !important;
+  text-transform: uppercase;
+  z-index: 100;
+  padding:5vh 0 0 0;
 }
 
 .team .member {
@@ -3040,11 +3118,12 @@ section {
 }
 
 .member-img {
-  margin: 0 150px;
+  margin: 0 12vw 0 2vw;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
   border: 4px solid var(--color-green);
+  margin-top: 3vh;
 }
 
 @media (max-width: 1024px) {
@@ -3109,13 +3188,31 @@ section {
 
 /* Contact Section - Home Page
 ------------------------------*/
+.contact{
+  min-height: 45vh;
+}
+
+.contact .container{
+  max-width: 90vw;
+  margin-left: 0;
+}
+
+.contact h2 {
+  color: var(--color-default);
+  font-weight: 600;
+  font-size: 3.5em !important;
+  text-transform: uppercase;
+  z-index: 100;
+  padding:5vh 0 0 5vw;
+}
+
+
 .contact {
   --color-box-background: #f7f7f7;
 }
 
 .contact .info-item {
   background: var(--color-box-background);
-  padding: 30px;
 }
 
 .contact .info-item i {
@@ -3126,16 +3223,24 @@ section {
 
 .contact .info-item h3 {
   color: var(--color-secondary);
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 700;
-  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+  margin: 0vh 0 0 0;
 }
 
 .contact .info-item p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 1.1em;
   margin-bottom: 0;
+}
+
+.contact .bio{
+  padding-top: 5vh;
+  padding-left: 0vw;
+
+  text-align: right;
 }
 
 /*--------------------------------------------------------------
