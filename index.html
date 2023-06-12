@@ -4,13 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home - Append Bootstrap Template</title>
+  <title>Home - BÜRKELENS.</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/icon1.jpg" rel="icon">
   <link href="assets/img/icon1.jpg" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -52,17 +54,26 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Start</a></li>
-          <li class="dropdown has-dropdown"><a href="#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a href="#about">About</a></li>
+          <li class="dropdown has-dropdown"><a href="#buerkel"><span>Buerkel & KHI</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="dd-box-shadow">
-              <li><a href="#">Ludwig von Bürkel</a></li>
-              <li><a href="#">The collection</a></li>
-              <li><a href="#">KHI Photothek</a></li>
+              <li><a href="#buerkel">Ludwig von Bürkel</a></li>
+              <li><a href="#photo-coll">The collection</a></li>
+              <li><a href="#photothek">KHI Photothek</a></li>
+              <li><a href="#portfolio">Collection highlights</a></li>
             </ul>
           </li>
-          <li><a href="index.html#services">Bürkel</a></li>
-          <li><a href="index.html#portfolio">Questions</a></li>
-          <li><a href="index.html#team">Data</a></li>
-          <li><a href="blog.html">Visualization</a></li>
+          <li><a href="#questions">Questions</a></li>
+          <li class="dropdown has-dropdown"><a href="#data-pres"><span>Data</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="dd-box-shadow">
+              <li><a href="#data-presentation">Data Overview</a></li>
+              <li><a href="#data-viz"><span id="eye" class="material-symbols-outlined">
+                visibility</span><span id="impact">Overall Impact</span></a></li>
+              <li><a href="#data-viz5"><span id="eye" class="material-symbols-outlined">
+                visibility</span><span id="impact">Categories</span></a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#team">Credits</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
 
@@ -107,29 +118,30 @@
           <div id="about-index" class="col-4 content align-items-xl-center">
             <h2>INDEX</h2>
             <ul>
-              <li><a href="#"><span>Ludwig von Bürkel</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>The collection</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>The KHI Photothek</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>Research Questions</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>Data</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>Visualization</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>Conclusion</span><i class="bi bi-arrow-right"></i></a></li>
-              <li><a href="#"><span>Contact</span><i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#buerkel"><span>Ludwig von Bürkel</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#photo-coll"><span>The collection</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#photothek"><span>The KHI Photothek</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#portfolio"><span>Collection Highlights</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#questions"><span>Research Questions</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#data-presentation"><span>Data Overview</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#data-viz"><span>Visualization: Section 1</span><i class="bi bi-arrow-right"></i> </a></li>
+              <li><a href="#data-viz5"><span>Visualization: Section 2</span><i class="bi bi-arrow-right"></i> </a></li>
+              <li><a href="#conclusion"><span>Conclusion</span> <i class="bi bi-arrow-right"></i></a></li>
+              <li><a href="#contact"><span>Contact</span> <i class="bi bi-arrow-right"></i></a></li>
             </ul>
           </div>
           <div id="about-proj" class="col-8 content">
             <div class="row gy-3">
               <h2>ABOUT THE PROJECT</h2>
-              <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta. Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta. Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+              <p>The project <b>Bürkelens</b> focuses on the analysis of the photographic collection of art historian Ludwig von Bürkel, donated  to the photographic archive of the <b>Kunsthistorisches Institut in Florenz in 1912</b>. The project aims to <b>assess the impact of Bürkel's collection</b> on the overall holdings of the KHI Photothek through an in-depth analysis, highlighting its uniqueness and contribution to the expansion of the KHI collection. The data extraction and analysis are conducted using a <a href="" target="_blank"><b>Jupyter Notebook</b></a>, which allows for a thorough inspection of the collection from various perspectives. Navigate through the next sections to learn more about Ludwig von Bürkel, his collection, and the KHI, before delving into the results. </p>
             </div>
           </div>
       </div>
     </div>
-        
         <a id="nxt-about" class="nxt-btn" href="#buerkel">Next</a>
         <div id="arr-about" class="arrow-left"></div>
         <div id="about-geometry"></div>
-
+        <div id="idx-geom"></div>
     </section><!-- End About Section -->
 
     <!-- Buerkel Section - Home Page -->
@@ -145,8 +157,8 @@
           <div id="buerkel-right" class="col-xl-8 content">
             <div class="row gy-3">
               <h2>Ludwig von Bürkel</h2>
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+                <p><a href="https://de.wikipedia.org/wiki/Ludwig_von_B%C3%BCrkel_(Kunsthistoriker)">Ludwig von Bürkel</a>, also known as Luigi von Bürkel, was a German art historian born in Munich in <b>1877</b>.  He pursued a military career from 1898 to 1900 and later continued his academic studies in Berlin. Bürkel specialized in Art History and frequently traveled between <b>Munich and Florence</b> to expand his expertise. After his involvement in the First World War, Bürkel resumed his activities as an <b>art historian, art merchant</b>, and travel guide in Italy and France. He completed a monograph on his grandfather, the painter Heinrich Bürkel, during World War II and settled in Kochel am See. Ludwig von Bürkel passed away on June 11, 1946.</p>
+                <p>Throughout his life, Ludwig von Bürkel made significant contributions to the field of art history. He founded and directed journals such as the <a href="https://de.wikipedia.org/wiki/M%C3%BCnchner_Jahrbuch_der_bildenden_Kunst"><i>Münchner Jahrbuch der bildenden Kunst</i></a> and the <i>Münchener graphische Gesellschaft</i>. In <b>1912</b>, Bürkel made a notable donation of <b>1000 photographs</b> to the <a href="https://www.khi.fi.it/en/index.php" target="_blank">Kunsthistorisches Institut in Florence</a>. The institute's archive still preserves <b>231 photos</b> from his collection, and the <b>Bürkelens</b> project focuses on studying the impact of his photographic collection on the KHI Photothek.</p>
             </div>
           </div>
         </div>
@@ -155,10 +167,10 @@
         <div id="arr-3" class="arrow-left"></div>
         <img id="buerkel-portr" src="assets/img/buerkel.png">
         <div id="hl3" class="hl"></div>
-        <span id="circle1-buer" class="dot"></span>
-        <span id="circle2-buer" class="dot"></span>
-        <span id="circle3-buer" class="dot"></span>
-        <span id="circle4-buer" class="dot"></span>
+        <span id="circle1-buer" class="dot"><span class="dotnumber">1877</span></br>Birth</span>
+        <span id="circle2-buer" class="dot"><span class="dotnumber">1906</span></br>Münchener Jahrbuch</span>
+        <span id="circle3-buer" class="dot"><span class="dotnumber">1912</span></br>KHI</br>donation</span>
+        <span id="circle4-buer" class="dot"><span class="dotnumber">1946</span></br>Death</span>
       </div>
 
     </section><!-- End Buerkel Section -->
@@ -176,9 +188,8 @@
             <div class="row gy-3">
               <h2>The Collection</h2>
               
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+                <p>Ludwig von Bürkel's photographic collection at the Kunsthistorisches Institut in Florence consists of photographs of mainly <b>Italian Renaissance and Baroque paintings</b>. The 1912 donation of 1000 photographs is recorded in the archive inventory books, however, only <b>231</b> are available in the KHI's Photothek today.</p>
+                <p>The photographs are <b>affixed to cardboards</b>, which has helped preserve them in good condition. Each cardboard includes various details about the photograph, such as inventory and negative numbers. Often, there are annotations related to the painting's title and attribution. A stamp indicates the <b>category of the archive</b> where the photograph are stored, while the Kunsthistorisches Institut stamp is generally found at the bottom. The collection features several photographers and employs different photographic techniques. The <a href="http://127.0.0.1:5500/index.html#portfolio"><b>collection highlights section</b></a> provides some examples, while more content-related details will be revealed in the following sections.</p>
                     <div class="col-lg-4 col-md-3">
                       <div class="stats-item text-center w-100 h-100">
                         <span id="stats1" data-purecounter-start="0" data-purecounter-end="1912" data-purecounter-duration="1" class="purecounter"></span>
@@ -223,9 +234,8 @@
             </div>
             <div class="col-xl-4 content"  id="photothek-khi-left">
               <div class="container" ><div class="col-lg-4 col-md-4">
-                <div class="stats-item text-center w-100 h-100">
-                  <span id="stats-khi" data-purecounter-start="0" data-purecounter-end="630000" data-purecounter-duration="1" class="purecounter"></span>
-                  <p>Photographs</p>
+                <div class="img-photothek-holder">
+                  <a href="https://www.khi.fi.it/en/institut/geschichte.php#:~:text=Photothek%20in%20the%20Palazzo%20Guadagni%20before%20the%20First%20World%20War" target="_blank"><img src="assets/img/photothekWWI.jpeg" title="Photothek in the Palazzo Guadagni before the First World War &copy; Kunsthistorisches Institut in Florenz. All rights reserved."></a>
                 </div>
               </div><!-- End Stats Item -->
               <div class="col-md-4" id="prev-khi">
@@ -242,9 +252,13 @@
             </div>
             <div id="collection-right6" class="col-8 col-xl-8 content">
               <div class="row gy-3" id="khi-descript">
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
-                <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+                <p>The <a href="https://www.khi.fi.it/en/index.php"><b>Kunsthistorisches Institut in Florenz (KHI)</b></a> is an esteemed research institutions focused on history of art and architecture in Italy. Established in <b>1897</b>, it became part of the <a href="https://www.mpg.de/en" target="_blank"><b>Max Planck Society</b></a> in 2002.</p>
+                <p>The institute's Photothek holds over 630.000 photographs primarly featuring Italian artworks from late Antiquity to the modern era. The archive actively acquires new photographs each year, while its main tasks involve preserving, investigating, and digitizing the historical collection.</p>
+                <p>All acquisitions throughout the decades until 1993 were manually recorded in the <b>Photothek's inventory books</b>. The upper photo on the left shows the Photothek before the First World War; below, two pages of the fifth inventory book including information of acquisitions between <b>1911 and 1924</b> are shown. By zooming in, one can observe the entries in detail: the left page contains information about the artworks, while the right page provides details about the photographs, including their <b>provenance</b> — where the name of <b>Bürkel</b> is mentioned. These serve as a fundamental resource, enabling the identification of specific photograph locations within the archive.</p>
+                <h4 style="font-family: Poppins;">Resources:</h4>
+                <p><a href="https://www.khi.fi.it/en/institut/geschichte.php" target="_blank">History</a></p>
+                <p><a href="https://www.khi.fi.it/en/photothek/index.php" target="_blank">Photothek</a></p>
+                
             </div>
             <div class="row gy-4">
               
@@ -260,9 +274,7 @@
         <div id="arr-6"></div>
         <div id="hl-6" class="hl"></div>
         <div id="vl-6" class="vl"></div>
-        <span id="circle2-khi" class="dot-khi"></span>
-        <span id="circle3-khi" class="dot-khi"></span>
-        <span id="circle4-khi" class="dot-khi"></span>
+
       </div>
     </section><!-- End Collection Section 1-->
 
@@ -273,7 +285,6 @@
       <!-- Portfolio Section Title -->
       <div class="container section-title portf" data-aos="fade-up">
         <h2>Highlights from the Collection</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -485,7 +496,8 @@
               <h2>Research Questions</h2>
                 <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations.</p>
               </div>
-              <div class="row row-cols-5 row-cols-md-5">
+            <div class="row">
+              <div class="col-xl-4 col-md-4 col-4 content">
                   <div class="card"  id="q-1">
                     <div class="card-body">
                       <h3 class="card-title">Impact on the</br>overall collection</h3>
@@ -499,6 +511,8 @@
                       </small></p>
                     </div>
                   </div>
+                </div>
+              <div class="col-xl-4 col-md-4 col-4 content">
                   <div class="card"  id="q-2">
                   <div class="card-body">
                     <h3 class="card-title">Impact on</br>specific categories</h3>
@@ -508,20 +522,22 @@
                       <li><p><b>COUNTRIES</b>: What are the predominant countries of reference of the artworks?</p></li>
                       <li><p><b>ARTISTIC PERIODS</b>: Which artistic period is predominantly represented in the photo collection?</p></li>
                       <li><p><b>PHOTOGRAPHERS</b>: What photographers are mainly featured in the collection?</p></li>
-                      <li><p><b>LOCATIONS</b>: Where are the artworks depicted in Bürkel's collection located?</p></li>
+                      <li><p><b>LOCATIONS</b>: Where are the artworks depicted</br>in Bürkel's collection located?</p></li>
                     </ul>
                   </p>                      
                   </div>
-                  </div>
-                  <div id="research-right" class="col-xl-2 col-md-2 col-2 content">
-                    <img id="research-q-box" src="assets/img/br.png"  title="Foto: Kunsthistorisches Institut in Florenz - Max-Planck-Institut, fotografo: Hanfstaengl.">
-                </div>                
-              </div>
               </div>
             </div>
-          
-        <div id="questions-geometry"></div>
-        <div id="questions-geometry1"></div>
+              <div id="research-right" class="col-xl-4 col-md-4 col-4 content">                  
+                    <div id="questions-geometry1"></div>
+                    <img id="research-q-box" src="assets/img/br.png"  title="Foto: Kunsthistorisches Institut in Florenz - Max-Planck-Institut, fotografo: Hanfstaengl.">
+                  <div id="questions-geometry"></div>
+                </div>                
+            </div>
+              </div>
+            </div>
+            </div>
+
         <a id="nxt-7" class="nxt-btn" href="#data-presentation">Next</a>
         <div id="arr-7"></div>
         <div id="vl7" class="vl"></div>
@@ -534,13 +550,39 @@
         <div class="row">
           <div id="data-pres-left" class="col-xl-6 content">
             <div class="row main-data-pres">
-                <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations.</p>
+                <p>Data related to Bürkel's collection was recently added to the KHI's database. Each database entry corresponds to an <b>artwork or object</b>, and within the same document all photographs of that particular object are listed. To isolate the relevant data, documents that did not contain photographs from the Bürkel collection were filtered out. The outcome was an <b>XML-format document</b> containing information about the photographs and the depicted paintings, with each data point associated with a specific field code. The analysis involved <b>extracting</b> relevant information from the document, <b>cleaning</b> the data, integrating it using <b>SPARQL queries</b>, and ultimately generating <b>results</b> to address the research questions.</p>
+                <p>The complete analysis is available in the <a>Jupyter Notebook</a> within the Github Repository of this Project. <b>Graphical representations</b> of the results are shown in the following sections.</p>
+                <p>On the right, one example of a phtograph entry extracted from the XML document.</p>
               </div>
             </div>
             <div id="data-pres-right" class="col-xl-6 content">
               <div class="row">
               <h2>Data Overview</h2>
+              <div id="databasecode">
+              <p style="font-family: monospace;">&lt;a8450&gt;Foto</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8496&gt;1912&lt;/a8496&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a84fl&gt;13652&lt;/a84fl&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8515&gt;Mal. Bar.&lt;/a8515&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8460&gt;Hanfstaengl&lt;/a8460&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8490&gt;Hanfstaengl&lt;/a8490&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8494&gt;vor 1903&lt;/a8494&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8478&gt;Lichtdruck&lt;a8478a&gt;Sepia get&ouml;nt&lt;/a8478a&gt;&lt;/a8478&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8596&gt;Cimelia Photographica (Standardformat)&lt;/a8596&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8497&gt;Geschenk&lt;/a8497&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8498&gt;Buerkel, Ludwig von&lt;/a8498&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8470&gt;Hanfstaengl 33&lt;/a8470&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8480&gt;25,3 x 19,6 cm (Foto)&lt;/a8480&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8482&gt;monochrom&lt;/a8482&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8510&gt;Gesamtansicht&lt;/a8510&gt;</p>
+              <p style="font-family: monospace; text-indent: 50px;">&lt;a8330&gt;Fotokatalog Hanfstaengl, Verlags-Katalog, 1903</p>
+              <p style="font-family: monospace; text-indent: 100px;">&lt;a8334&gt;S. 61&lt;/a8334&gt;</p>
+                  <p style="font-family: monospace; text-indent: 100px;">&lt;a8200 edp:augmented=&quot;lit::70000381&quot;&gt;70000381&lt;/a8200&gt;</p>
+                  <p style="font-family: monospace; text-indent: 50px;">&lt;/a8330&gt;</p>
+                  <p style="font-family: monospace; text-indent: 50px;">&lt;a8494a edp:augmented=&quot;no:reference&quot;&gt;1893&lt;/a8494a&gt;</p>
+                  <p style="font-family: monospace; text-indent: 50px;">&lt;a8494e edp:augmented=&quot;no:reference&quot;&gt;1903&lt;/a8494e&gt;</p>
+                  <p style="font-family: monospace;">&lt;/a8450&gt;</p>
               </div>
+            </div>
             </div>
           </div>
         <div id="data-pres-geometry"></div>
@@ -582,7 +624,7 @@
             <div class="row main-viz2">
               <h3>Data Visualization</h3>
               <h2>Percentage of Paintings</br>with Individual Photos</h2>
-                  <p>An additional factor that highlights the significance of Bürkel's collection within the archive is the number of paintings exclusive to his collection, which are represented in only one photo in the archive. By analyzing this criterion, we can identify the paintings that are unique to Bürkel's collection and have no other photographic representation within the archive. Approximately one third of the paintings present in the Bürkel collection are not represented in any other photograph within the archive. This means that the photographs from Bürkel's collection serve as the sole testament to these specific paintings within the Photothek. They hold exclusive documentation of these artworks, highlighting the unique and valuable contribution of Bürkel's photographs in preserving the visual record of these paintings.</p>
+                  <p>Bürkel's collection holds a special significance within the archive due to the presence of paintings that <b>only exist in his collection</b>. These artworks are not represented in any other photograph in the archive. Surprisingly, around <b>one third</b> of the paintings in Bürkel's collection fall into this category. This means that the photographs from Bürkel's collection are the <b>only visual record</b> of these specific paintings within the Photothek, offering exclusive documentation of these unique artworks.</p>
                 </div>
               </div>
                 <div id="data-viz2-left" class="col-xl-6 content">
@@ -605,11 +647,11 @@
           <div id="data-viz3-left" class="col-xl-6 content">
             <div class="row main-viz3">
               <h3>Data Visualization</h3>
-              <h2>Destroyedor</br>Missing Paintings</h2>
+              <h2>Destroyed or</br>Missing Paintings</h2>
                 </div>
               </div>
                 <div id="data-viz3-left" class="col-xl-6 content">
-                  <p>Within the Photothek, numerous photographs depict artworks that no longer exist. The database includes relevant information regarding the condition of these artworks, allowing for the identification of missing, damaged, or destroyed pieces. By extracting data from the dataframe, we can compile an overview of the paintings within the Bürkel collection that are currently unavailable, providing insight on the artworks that have been lost or no longer exist today. Nine paintings represented in the Bürkel photographic collection are currently missing or have been destroyed, rendering them inaccessible today. Among these, only the painting by Benozzo Gozzoli is captured in two photographs within the archive, with one originating from the Bürkel collection and the other from a different collection. In contrast, the remaining paintings are each represented by only a single photograph in the entire archive, all of which are sourced from the Bürkel collection. This distinction emphasizes the significance and value of these singular photographs and their crucial role in preserving the visual record of these paintings.</p>
+                  <p>The Photothek contains numerous photographs that depict <b>artworks that no longer exist</b>. Through the database, we can determine the condition of these artworks and identify missing or damaged pieces. Analyzing the data, we discovered that within the Bürkel collection, <b>nine paintings</b> are currently missing or destroyed. Interestingly, only one painting by Benozzo Gozzoli is captured in two photographs, one from Bürkel's collection and another from a different source. In contrast, the rest of the paintings have a <b>single photograph in the entire archive</b>, exclusively found in the <b>Bürkel collection</b>. These photographs play crucial role in preserving the visual record of these paintings.</p>
                 </div>
             </div>
             <div class="row">
@@ -639,14 +681,8 @@
               </div>
                 <div id="data-viz4-left" class="col-xl-6 content">
               <h3>Data Visualization</h3>
-              <h2>CHRONOLOGICAL DISTRIBUTION OF PHOTOS OF PREDOMINANT PAINTINGS</h2>
-                  <p>The following chart shows an overview of paintings featured in at least five photos from the archive. It provides information about the number of photographs, represented through the small rectangles, placed in chronological order of archival date from left to right. Photographs are grouped into three categories as specified in the legend:</p>
-                  <ul>
-                    <li>Photos acquired by the Photothek before the Bürkel collection</li>
-                    <li>Photos from the Bürkel collection, acquired in 1912</li>
-                   <li>Photos acquired by the archive after the Bürkel collection</li>
-                  </ul>
-                <p>The initial photographs of most listed paintings primarily originated from Ludwig von Bürkel's collection, indicating his collection's significant contribution to the archive. As shown in the graph, several new photographs of these paintings were acquired after the acquisition of the art historian's collection.</p>
+              <h2>CHRONOLOGICAL DISTRIBUTION OF PHOTOS OF MOST FREQUENT PAINTINGS</h2>
+                <p>This chart offers a view of <b>paintings</b> within the Bürkel collection that are depicted in at least five photos within the archive. It shows the number of photographs through small rectangles, arranged <b>chronologically</b> from left to right based on their <b>archival date</b>. To provide a better understanding, the photos are categorized into three groups: those from the Bürkel collection, those acquired before it, and those obtained after it. For most of the paintings, the <b>first photograph</b> that entered the archive originated from <b>Bürkel's collection</b>. Several new photographs of these paintings were acquired after the inclusion of Bürkel's collection, indicating continued expansion of the KHI Photothek's visual records.</p>
                 </div>
             </div>
             <div class="row">
@@ -672,7 +708,7 @@
           <div id="data-viz5-left" class="col-xl-8 content">
             <div class="row main-viz5">
               <img id="photos-artists" src="assets/img/viz5.png" alt="number of photos per artist">
-              <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations. The answers are provided in the following sections through graphical visualizations.The answers are provided in the following sections through graphical visualizations.The answers are provided in the following sections through graphical visualizations.</p>
+              <p>Let's now address the second research questions to explore the <b>influence of Bürkel's collection across various categories</b>. This section shows the most represented artists, focusing on the number of photographs within the Bürkel collection.</br>The most represented artist in the collection is unquestionably the <b>Italian Baroque painter Guercino</b>, featured in 48 photographs. The acquisition of the art historian collection allowed to considerably increase the number of photos of Guercino's paintings.</p>
                 </div>
               </div>
                 <div id="data-viz5-left" class="col-xl-4 content">
@@ -708,7 +744,7 @@
                     </div>
                   </div>
                     <div id="data-viz5a-left" class="col-xl-4 content">
-                      <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations.</p>
+                      <p>A further interesting fact about the collection is that it primarily focuses on <b>Italian artists</b>, including a total of <b>105</b>. Notably, the collection features only two artists from different countries, specifically from Belgium and the United Kingdom, highlighting the collection's emphasis and Bürkel's interest on Italian art. </p>
                     </div>
                 </div>
                 <div class="row">
@@ -735,9 +771,8 @@
                 </div>
               </div>
                 <div id="data-viz6-left" class="col-xl-6 content">
-              <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations. The answers are provided in the following sections through graphical visualizations.The answers are provided in the following sections through graphical visualizations.</p>
-
-                </div>
+              <p>Let's now explore the distribution of photographs in Bürkel's collection based on different <b>artistic periods</b>, as classified by the <b>KHI Photothek</b>. We find <b>147 photos of Renaissance paintings</b>, which almost double the number of photos of Baroque artworks. we can observe that out of the 79 photographs of Baroque paintings, an impressive 48 of them are dedicated to the works of Guercino. In contrast, the subset of Renaissance photographs exhibits a more <b>diverse distribution of artists</b>, presenting a broader range of contributors from this period.</p>
+            </div>
             </div>
             <div class="row">
               <div id="data-viz6-2" class="col-xl-12 content">
@@ -762,7 +797,7 @@
             <div class="row main-viz7">
               <h3>Data Visualization</h3>
               <h2>NUMBER OF PHOTOS PER PHOTOGRAPHER</h2>
-                  <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations. The main purpose of this project is </p>
+                  <p>The existence of Bürkel's collection as we know it today owes much to the work of its <b>photographers</b>. Notably, the collection of the KHI was enriched with a remarkable addition of <b>70 photos</b> of German photographer <b>Hanfstaengl</b>, followed by Italian photographers Anderson and Brogi. This inclusion of both Italian and German photographers offers compelling evidence of Ludwig von Bürkel's frequent travels between Munich and Florence. It suggests that his journeys also served as a means to expand and enrich his photo collection.</p>
                 </div>
               </div>
                 <div id="data-viz7-left" class="col-xl-6 content">
@@ -788,11 +823,33 @@
                     </div>
                   </div>
                     <div id="data-viz8-left" class="col-xl-4 content">
-                      <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations.</p>
+                      <p>The analysis offers a valuable insight into the present-day and former <b>locations of the paintings</b> within Bürkel's collection. A significant number of paintings in the collection are predominantly situated in various Italian cities, including <b>Rome, Florence,</b> and <b>Genoa</b>. Additionally, the collection includes artworks located in <b>Vienna</b>, as well as several notable cities in Germany, such as <b>Dresden, Berlin,</b> and <b>Munich</b></p>
                     </div>
                 </div> 
-            <a id="nxt-16" class="nxt-btn" href="#conclusion">Next</a>
+            <a id="nxt-16" class="nxt-btn" href="#data-viz9">Next</a>
           <div id="arr-16"></div>
+          </div>
+        </section>
+        <!-- Data Viz5a Section End-->
+
+        
+        <!-- Data Visualization Section 8 - Home Page -->
+        <section id="data-viz9" class="sect-16a">  
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row">
+              <div id="data-viz9-left" class="col-xl-8 content">
+                <div class="row main-viz9">
+                  <img src="assets/img/viz9.png">
+                    </div>
+                  </div>
+                    <div id="data-viz9-left" class="col-xl-4 content">
+                      <h3>Data Visualization</h3>
+                    <h2>PAINTINGS INSTITUTIONS</h2>
+                      <p>From our data, we have obtained information about the specific <b>holding institutions</b> of the paintings from the collection. Bürkel's collection contributed to the Photothek with several photographs of paintings from the <b>Dresden Old Masters Picture Gallery</b>, which is also where six out of the nine missing or destroyed paintings were originally located. Additionally, significant additions to the collection include photographs of paintings from the <b>Galleria degli Uffizi</p>b> in Florence, the <b>Kunsthistorisches Museum in Vienna</b>, and the <b>Berlin State Museums</b>.</p>
+                    </div>
+                </div> 
+            <a id="nxt-16a" class="nxt-btn" href="#conclusion">Next</a>
+          <div id="arr-16a"></div>
           </div>
         </section>
         <!-- Data Viz5a Section End-->
@@ -803,15 +860,28 @@
             <div class="row">
               <div id="conclusion-title" class="col-xl-12 content">
                 <h2>Conclusions and</br>Recommendations</br>for Further Work</h2>
+                <p>Ludwig von Bürkel's photographic collection at the Kunsthistorisches Institut in Florence has had a relevant impact on the overall collection.</p>
               </div>
             </div>
             <div class="row">
               <div id="conclusion-left" class="col-xl-6 content">
+                <h3>Contribution to the overall collection</h3>
+                <ul>
+                  <li>The acquisition of Bürkel's collection in 1912 brought a substantial number of previously unseen photographs into the archive.</li>
+                  <li>Bürkel's collection contains photographs of artworks that are unmatched in the archive, allowing to preserve the visual record of these paintings.</li>
+                  <li>The collection features unique photos of several paintings that no longer exist, making these images an invaluable testament.</li>
+                </ul>
                 <div class="row main-conclusion">
                     </div>
                   </div>
                   <div id="data-conclusion-left" class="col-xl-6 content">
-                    <p>The main purpose of this project is to <b>assess the impact of Ludwig von Bürkel's collection on the overall collection of the KHI.</b> and <b>and determine the categories on which the collection had a relevant impact.</b> In order to determine this impact, the <b>following questions</b> were taken into consideration while conducting the data analysis. The answers are provided in the following sections through graphical visualizations. The answers are provided in the following sections through graphical visualizations.The answers are provided in the following sections through graphical visualizations.The answers are provided in the following sections through graphical visualizations.</p>
+                  <h3>Contribution to different Categories</h3>
+                    <ul>  
+                    <li>The collection's contributed to enrich the KHI collection with photos featuring Italian artists, with the Italian Baroque painter Guercino being prominently featured.</li>
+                    <li>Bürkel's collection allowed to expand the set of photographs by German photographer Hanfstaengl.</li> 
+                    <li>The artworks in Bürkel's collection are mainly located in Italian cities, along with notable cities in Germany and Vienna.</li>
+                  </ul>
+                  <p>Does L. von Buerkel’s collection focus reflect the tendency of study of his period in the field of art history? (Comparison with ARTchives)</p>
                   </div>
                 </div>
               </div> 
@@ -907,9 +977,10 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span>LVB</span>
+            <span><span id="b-lens1">B</span>ürkelens</span>
+            <span id="logodot">.</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Ludwig von Bürkel’s photographic collection at the KHI</h2></p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -919,41 +990,43 @@
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Explore the sections</h4>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#hero">Start</a></li>
+            <li><a href="#about">About the Project</a></li>
+            <li><a href="#buerkel">Ludwig von Bürkel</a></li>
+            <li><a href="#photo-coll">The collection</a></li>
+            <li><a href="#photothek">The Photothek of the KHI</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+          <h4 id="adot">.d</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#portfolio">Highlights from the collection</a></li>
+            <li><a href="#questions">Research Questions</a></li>
+            <li><a href="#data-pres">Data Overview</a></li>
+            <li><a href="#data-viz">Data Visualization</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <h4>Useful links</h4>
+          <p><a href="https://www.khi.fi.it/it/index.php" target="_blank">Kunsthistorisches Institut in Florenz</a></p>
+          <p><a href="https://photothek.khi.fi.it/documents/oau" target="_blank">Virtual Photothek</a></p>
+          <p></p>
+          <p><a href="http://www.bildindex.de/?set_language=de" target="_blank">Bildindex der Kunst und Architektur</a></p>
+          <p></p>
+          <p><a href="https://github.com/AlessandraFa/buerkel-photos.git" target="_blank">Bürkelens on Github</a></p>
+          <p></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>&copy; <span>Copyright</span> <strong class="px-1">Append</strong> <span>All Rights Reserved</span></p>
+      <p>&copy; <span>Copyright</span> <strong class="px-1">Bürkelens</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
