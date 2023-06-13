@@ -4,7 +4,8 @@ The project **Bürkelens** was developed for the Electronic Publishing and Digit
 The goal of the project is to assess the **impact** of Ludwig von Bürkel's collection on the overall collection of the KHI and to determine the **categories** on which the collection had a relevant impact, in particular to show the contribution of the collection in terms of artists, geographical reference, artistic periods, photographers, and locations.
 
 ***
-[![Binder]([https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AlessandraFa/buerkel-photos.git/HEAD?labpath=https%3A%2F%2Fgithub.com%2FAlessandraFa%2Fbuerkel-photos%2Fblob%2F171490bdda85594d1bcef7cdbd155097a2740b0b%2Fbuerkel-data%2FAF_BuerkelAnalysis_EPDS.ipynb](https://mybinder.org/v2/gh/AlessandraFa/buerkel-photos/171490bdda85594d1bcef7cdbd155097a2740b0b?urlpath=lab%2Ftree%2Fbuerkel-data%2FAF_BuerkelAnalysis_EPDS.ipynb))
+[![Binder]([https://mybinder.org/badge_logo.svg)]([https://mybinder.org/v2/gh/AlessandraFa/buerkel-photos.git/HEAD?labpath=https%3A%2F%2Fgithub.com%2FAlessandraFa%2Fbuerkel-photos%2Fblob%2F171490bdda85594d1bcef7cdbd155097a2740b0b%2Fbuerkel-data%2FAF_BuerkelAnalysis_EPDS.ipynb](https://mybinder.org/v2/gh/AlessandraFa/buerkel-photos/171490bdda85594d1bcef7cdbd155097a2740b0b?urlpath=lab%2Ftree%2Fbuerkel-data%2FAF_BuerkelAnalysis_EPDS.ipynb)](https://mybinder.org/v2/gh/AlessandraFa/buerkel-photos/171490bdda85594d1bcef7cdbd155097a2740b0b?urlpath=lab%2Ftree%2Fbuerkel-data%2FAF_BuerkelAnalysis_EPDS.ipynb
+))
 
 The **website** of the project is accessible <a href="https://alessandrafa.github.io/buerkel-photos/index.html" target="_blank">here</a>.\
 The **project** and **derivative data** are distributed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA Creative Commons Attribution-ShareAlike 3.0 License</a>.\
