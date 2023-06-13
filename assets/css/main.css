@@ -483,7 +483,7 @@
   border-left: 42.5vw solid rgb(214, 185, 135);
   z-index: -3;
   position: relative;
-  margin-top: -38vh;
+  margin-top: -37vh;
 }
 
 #con3-geometry{
@@ -493,7 +493,7 @@
   border-left: 86.5vw solid rgba(106, 138, 144);
   z-index: -3;
   position: relative;
-  margin-top: -34vh;
+  margin-top: -35vh;
   margin-left: 2vh;
 }
 }
@@ -3621,7 +3621,7 @@ section {
 }
   .future-res h3{
     padding-left: 6vh !important;
-    padding-top: 4vh !important;
+    padding-top: 2vh !important;
   }
   .future-res p{
     padding-right: 16vw;
