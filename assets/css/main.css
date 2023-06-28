@@ -3382,6 +3382,7 @@ section {
 #data-viz9-left p{
   padding-left: 2vw;
   text-align: right;
+  font-size:1em;
 }
 
 .main-viz9 img{
