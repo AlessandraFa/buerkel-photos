@@ -2934,6 +2934,9 @@ section {
   padding-left: 8vw;
   text-align: right;
 }
+#data-viz4-left p{
+    font-size: 1em !important;
+  }
 #chron-photos{
   position: absolute;
   left: -5vw;
