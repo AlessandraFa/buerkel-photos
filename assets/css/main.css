@@ -2737,15 +2737,15 @@ section {
   font-size: 4em;
   text-transform: uppercase;
   text-align: right;
-  padding:7vh; 
   padding-right: 10vh;
 }
 #data-pres-left .row{
-  padding: 22vh 5vw 2vh 4vw;
+  padding: 14vh 5vw 2vh 4vw;
 }
 
 #databasecode{
   font-size: 1.5vh !important;
+  padding-top: 3vh;
 }
 
 @media (max-width: 1512px) { 
