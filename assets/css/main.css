@@ -2792,15 +2792,15 @@ section {
   font-size: 4em;
   text-transform: uppercase;
   text-align: right;
-  padding:7vh; 
   padding-right: 10vh;
 }
 #data-pres-left .row{
-  padding: 22vh 5vw 2vh 4vw;
+  padding: 14vh 5vw 2vh 4vw;
 }
 
 #databasecode{
   font-size: 1.5vh !important;
+  padding-top: 3vh;
 }
 
 @media (max-width: 1512px) { 
@@ -2986,9 +2986,12 @@ section {
 
 #data-viz4-left{
   padding-top: 4vh;
-  padding-left: 10vw;
+  padding-left: 8vw;
   text-align: right;
 }
+#data-viz4-left p{
+    font-size: 1em !important;
+  }
 #chron-photos{
   position: absolute;
   left: -5vw;
@@ -3437,6 +3440,7 @@ section {
 #data-viz9-left p{
   padding-left: 2vw;
   text-align: right;
+  font-size:1em;
 }
 
 .main-viz9 img{
