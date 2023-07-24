@@ -498,6 +498,25 @@
 }
 }
 
+@media (max-width: 575.98px) {
+  .vl, .hl{
+    visibility: hidden;
+  }
+  .nxt-btn{
+    visibility: hidden;
+  }
+  .hero .arrow-right{
+    top: 10vh;
+    right: 0!important;
+    left: inherit;
+    width: 0; 
+    border-bottom: 45vh solid transparent;
+    border-right: 75vw solid var(--color-primary);
+    position: absolute;
+    z-index: 0;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Next Buttons
@@ -2028,6 +2047,25 @@ section {
 }
 }
 
+@media (max-width: 575.98px) {
+  .hero{
+    min-height: 80vh;
+    width: 80vw;
+  }
+  .hero h2{
+    font-size: 8vw !important;
+    padding-left: 0;
+    margin-left: 0;
+    position: absolute;
+  }
+  .hero img {
+    position: absolute;
+    top: 50vh;
+    width: fit-content;
+    height: 25vh;
+  }
+}
+
 /* About Section - Home Page
 ------------------------------*/
 .about {
@@ -2177,6 +2215,23 @@ section {
   }
 }
 
+@media (max-width: 575.98px) {
+  .about h2{
+    font-size: 8vw !important;
+  }
+  .about .container{
+    height: inherit;
+    padding-top: -30vh;
+    margin-left: -20vw !important;
+  }
+  #about-index, #about-geometry, #idx-geom{
+    visibility: hidden;
+  }
+  .about p{
+    text-align: justify;
+    font-size: 1.6vh !important;
+  }
+}
 /* Buerkel Section
 ------------------------------*/
 .sect-3{
