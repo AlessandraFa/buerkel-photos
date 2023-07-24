@@ -578,6 +578,11 @@
   left: 30vw;
   z-index: -20;
 }
+@media (max-width: 575.98px) {
+  #arr-about{
+    visibility: hidden;
+  }
+}
 
 #nxt-3{
   position: absolute;
@@ -590,6 +595,11 @@
   position: absolute;
   top:278vh;
   left: 30vw;
+}
+@media (max-width: 575.98px) {
+  #arr-3{
+    visibility: hidden;
+  }
 }
 
 #nxt-4{
@@ -604,7 +614,11 @@
   top:378vh;
   left: 30vw;
 }
-
+@media (max-width: 575.98px) {
+  #arr-4{
+    visibility: hidden;
+  }
+}
 #nxt-5{
   position: absolute;
   bottom: 0;
@@ -620,6 +634,13 @@
   left: 81.1vw;
   border-bottom: 8vh solid transparent !important;
   border-right: 3vw solid var(--color-default) ;
+}
+
+
+@media (max-width: 575.98px) {
+  #arr-5{
+    visibility: hidden;
+  }
 }
 
 #nxt-6{
@@ -638,6 +659,11 @@
   border-right: 3.5vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-6{
+    visibility: hidden;
+  }
+}
 #nxt-7{
   position: absolute;
   bottom: 0;
@@ -651,6 +677,11 @@
   left: 90.1vw;
   border-bottom: 8vh solid transparent !important;
   border-right: 3vw solid var(--color-default) ;
+}
+@media (max-width: 575.98px) {
+  #arr-7{
+    visibility: hidden;
+  }
 }
 #nxt-8{
   position: absolute;
@@ -666,6 +697,12 @@
   border-bottom: 8vh solid transparent !important;
   border-left: 3vw solid var(--color-default) ;
 }
+
+@media (max-width: 575.98px) {
+  #arr-8{
+    visibility: hidden;
+  }
+}
 #nxt-9{
   position: absolute;
   bottom: 0;
@@ -679,6 +716,12 @@
   left: 6vw;
   border-bottom: 8vh solid transparent !important;
   border-left: 3vw solid var(--color-default) ;
+}
+
+@media (max-width: 575.98px) {
+  #arr-9{
+    visibility: hidden;
+  }
 }
 #nxt-10{
   position: absolute;
@@ -695,6 +738,11 @@
   border-left: 3vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-10{
+    visibility: hidden;
+  }
+}
 #nxt-11{
   position: absolute;
   bottom: 0;
@@ -709,6 +757,12 @@
   border-bottom: 8vh solid transparent !important;
   border-left: 3vw solid var(--color-default) ;
 }
+
+@media (max-width: 575.98px) {
+  #arr-11{
+    visibility: hidden;
+  }
+}
 #nxt-12{
   position: absolute;
   bottom: 0;
@@ -722,6 +776,12 @@
   left: 93vw;
   border-bottom: 8vh solid transparent !important;
   border-right: 3vw solid var(--color-default) ;
+}
+
+@media (max-width: 575.98px) {
+  #arr-12{
+    visibility: hidden;
+  }
 }
 #nxt-13{
   position: absolute;
@@ -738,6 +798,11 @@
   border-right: 3vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-13{
+    visibility: hidden;
+  }
+}
 #nxt-13a{
   position: absolute;
   bottom: 0;
@@ -753,6 +818,11 @@
   border-right: 3vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-13a{
+    visibility: hidden;
+  }
+}
 #nxt-14{
   position: absolute;
   bottom: 0;
@@ -768,6 +838,11 @@
   border-right: 3vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-14{
+    visibility: hidden;
+  }
+}
 
 #nxt-15{
   position: absolute;
@@ -782,6 +857,12 @@
   left: 93vw;
   border-bottom: 8vh solid transparent !important;
   border-right: 3vw solid var(--color-default) ;
+}
+
+@media (max-width: 575.98px) {
+  #arr-15{
+    visibility: hidden;
+  }
 }
 
 #nxt-16{
@@ -799,6 +880,12 @@
   border-right: 3vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-16{
+    visibility: hidden;
+  }
+}
+
 #nxt-16a{
   position: absolute;
   bottom: 0;
@@ -814,6 +901,11 @@
   border-right: 4vw solid var(--color-default) ;
 }
 
+@media (max-width: 575.98px) {
+  #arr-16a{
+    visibility: hidden;
+  }
+}
 #nxt-17{
   position: absolute;
   bottom: 0;
@@ -830,6 +922,12 @@
   left: 94vw;
   border-top: 8vh solid var(--color-default) ;
   border-left: 3vw solid transparent;
+}
+
+@media (max-width: 575.98px) {
+  #arr-17{
+    visibility: hidden;
+  }
 }
 @media (max-width: 1512px) { 
   #nxt-about{
@@ -1795,6 +1893,13 @@ section {
   }
 }
 
+@media (max-width: 575.98px) {
+  #scroll-top{
+    right: 100px;
+    bottom: 80px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -2050,7 +2155,6 @@ section {
 @media (max-width: 575.98px) {
   .hero{
     min-height: 80vh;
-    width: 80vw;
   }
   .hero h2{
     font-size: 8vw !important;
@@ -2185,9 +2289,6 @@ section {
   h2{
     font-size: 3.5em !important;
   }
-  #about-proj h2{
-    text-align: r;
-  }
 
   #about-proj p{
     padding-left: 0;
@@ -2216,20 +2317,39 @@ section {
 }
 
 @media (max-width: 575.98px) {
+  .about{
+    height: 100px !important;
+  }
   .about h2{
     font-size: 8vw !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    max-height: 3vh;
   }
   .about .container{
     height: inherit;
-    padding-top: -30vh;
+    margin-top: 0;
+    padding-top: 10vh;
     margin-left: -20vw !important;
   }
-  #about-index, #about-geometry, #idx-geom{
+  #about-index, #about-geometry{
     visibility: hidden;
   }
   .about p{
-    text-align: justify;
+    text-align: left;
     font-size: 1.6vh !important;
+  }
+  #about-proj{
+    height: 70vh;
+  }
+  #about-index{
+    height: 70vh;
+  }
+  #about-index{
+    visibility: hidden !important;
+  }
+  .arrow-left{
+    visibility: hidden;
   }
 }
 /* Buerkel Section
@@ -2295,6 +2415,50 @@ section {
   }
 }
 
+
+@media (max-width: 575.98px) {
+  .sect-3 h2{
+    font-size: 8vw !important;
+  }
+  .sect-3 .container{
+    height: inherit;
+    padding-top: -30vh;
+    margin-left: -20vw !important;
+  }
+  #about-index, #about-geometry{
+    visibility: hidden;
+  }
+  #buerkel-right p{
+    text-align: left;
+    font-size: 1.6vh !important;
+  }
+  .sect-3 {
+    min-height: 89vh;
+    margin-top: 3vh;
+  }
+  .sect-3 .content .row{
+    position: relative;
+    left: 30vw;
+    top: 2vh;
+    width: 65vw;
+  }
+  #buerkel-portr{
+    visibility: hidden;
+  }
+  #buerkel .dot{
+    visibility: hidden;
+  }
+  #buerkel-geometry{
+  width: 0; 
+  height: 0; 
+  border-bottom: 59vh solid transparent;
+  border-left: 80vw solid var(--color-yellow);
+  position: absolute;
+  left: 0;
+  top:165vh;
+  z-index: -1;
+  }
+}
 
 /* Collection Section
 ------------------------------*/
@@ -2404,6 +2568,42 @@ section {
 #photo-coll .container{
   margin-left: 0;
 }
+
+@media (max-width: 575.98px) {
+  .sect-4{
+    height: 140vh;
+  }
+  .sect-4 .content h2{
+    font-size: 8vw !important;
+    width: 50vw;
+  }
+  .sect-4 .content .row {
+    position: absolute;
+    left: 10vw;
+    top: 280vh;
+    width: 65vw;
+  }
+  #collection-right .row p{
+    font-size: 1.6vh !important;
+  }
+  #collection-left{
+    visibility: hidden;
+  }
+  .stats-item {
+    padding: 1vh;
+  }
+  #idx-geom{
+    top:275vh;
+    position: absolute;
+    left: 22vw;
+    border-bottom: 60vh solid transparent;
+    border-right: 60vw solid var(--color-green);
+    border-top: 0;
+    width: 0; 
+    height: 0; 
+    z-index: -10;
+  }
+}
 /* Collection Section 2
 ------------------------------*/
 .sect-5{
@@ -2501,6 +2701,21 @@ section {
     padding-top: 4vh;
   }
 
+}
+
+@media (max-width: 575.98px) { 
+  .portf h2{
+    font-size: 8vw !important;
+    width: 60vw;
+    text-align: left;
+  }
+  #portfolio .container{
+    width: 80%;
+    margin-left: 0;
+  }
+  .portfolio-info{
+    font-size: 0.8em;
+  }
 }
 
 /* KHI Photothek Section
@@ -2685,6 +2900,32 @@ section {
   }
 }
 
+@media (max-width: 575.98px) { 
+  .sect-6{
+    margin-top: 0;
+  }
+  .sect-6 h2{
+    font-size: 8vw !important;
+    width: 70vw;
+  }
+  #photothek-khi-left{
+    visibility: hidden;
+    height: 0;
+  }
+  .img-photothek-holder{
+    height: 0;
+  }
+  #collection-right6{
+    margin-top: 0;
+    font-size: 3.8vw;
+  }
+  #khi-descript{
+    padding-top: 2vh;
+    width: 80vw;
+    padding-left: 0 !important;
+  }
+
+}
 /* Research Questions - Home Page
 ------------------------------*/
 
@@ -2771,6 +3012,44 @@ section {
 #q-2 h3{
   padding-left: 0vh;
 }
+}
+
+@media (max-width: 575.98px) { 
+  #questions{
+    margin-top: 0;
+  }
+  #questions h2{
+    font-size: 8vw !important;
+  }
+  #research-left{
+    font-size: 0.8em;
+  }
+  #questions .card-body{
+    font-size: 1.1em !important;
+    width: 75%;
+  }
+  .card{
+    z-index: 100 !important;
+    background-color: transparent !important;
+  }
+  #questions-geometry{
+    visibility: hidden;
+  }
+  #questions-geometry1{
+    height: 0; 
+    border-top: 40vh solid transparent;
+    border-right: 70vw solid var(--color-primary);
+    margin-right: 4vw;
+    margin-left: 10vw;
+    margin-top: -40vh;
+  }
+  #research-q-box{
+    height: 50vh;
+    width: 100vw !important;
+    margin-left: -20vw;
+    padding-right: 20vw !important;
+    padding-top: 5vh;
+  }
 }
 
 /* Data Overview - Home Page
