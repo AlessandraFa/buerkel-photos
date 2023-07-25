@@ -2342,10 +2342,11 @@ section {
   }
   .about p{
     text-align: left;
-    font-size: 1.6vh !important;
+    font-size: 11pt !important;
     width: 100%;
-    padding-top: 2vh;
+    padding-top: 8vh;
     padding-right: 0 !important;
+    padding-left: 4vw !important;
   }
   #about-proj{
     height: 70vh;
@@ -2356,7 +2357,8 @@ section {
   }
   #about-index{
     visibility: hidden !important;
-    width: 0;
+    width: 0 !important;
+    padding: 0;
   }
   .arrow-left{
     visibility: hidden;
@@ -2443,7 +2445,7 @@ section {
   }
   #buerkel-right p{
     text-align: left;
-    font-size: 1.6vh !important;
+    font-size: 11pt !important;
   }
   .sect-3 {
     min-height: 89vh;
@@ -2454,6 +2456,9 @@ section {
     left: 25vw;
     top: 2vh;
     width: 95vw;
+  }
+  #buerkel-left, #buerkel-right{
+    margin-top: 0;
   }
   #buerkel-portr{
     visibility: hidden;
@@ -2597,7 +2602,7 @@ section {
     width: 95vw;
   }
   #collection-right .row p{
-    font-size: 2vh !important;
+    font-size: 11pt !important;
   }
   #collection-left{
     visibility: hidden;
@@ -2930,9 +2935,9 @@ section {
   .img-photothek-holder{
     height: 0;
   }
-  #collection-right6{
+  #collection-right6 p{
     margin-top: 0;
-    font-size: 5vw;
+    font-size: 11pt;
   }
   #khi-descript{
     padding-top: 2vh;
