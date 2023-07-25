@@ -2445,7 +2445,7 @@ section {
   }
   #buerkel-right p{
     text-align: left;
-    font-size: 10.5pt !important;
+    font-size: 9pt !important;
   }
   .sect-3 {
     min-height: 89vh;
@@ -5331,7 +5331,4 @@ section {
     margin-top: 0;
     margin-right: 0;
   }
-  #main{
-    box-sizing: border-box !important;
-}
 }
