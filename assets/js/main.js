@@ -299,3 +299,9 @@ function imageZoom(imgID, resultID) {
   }
 }
 
+const myModal = new bootstrap.Modal('#pc-modal')
+
+window.addEventListener('DOMContentLoaded', () => {
+  myModal.show();
+});
+
