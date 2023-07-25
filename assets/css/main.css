@@ -2445,7 +2445,7 @@ section {
   }
   #buerkel-right p{
     text-align: left;
-    font-size: 11pt !important;
+    font-size: 10.5pt !important;
   }
   .sect-3 {
     min-height: 89vh;
@@ -3042,11 +3042,11 @@ section {
   #questions h2{
     font-size: 8vw !important;
   }
-  #research-left{
-    font-size: 0.8em;
+  #research-left p{
+    font-size: 11pt;
   }
-  #questions .card-body{
-    font-size: 1.4em !important;
+  #questions .card-body p{
+    font-size: 11pt !important;
     width: 100%;
   }
   .card{
@@ -3067,7 +3067,7 @@ section {
   }
   .main-q p{
     padding-right: 0;
-    font-size: 1.3em !important;
+    font-size: 11pt !important;
   }
 }
 
@@ -3124,11 +3124,11 @@ section {
     margin-left: 0 !important;
     text-align: left;
   }
-  .main-data-pres{
+  .main-data-pres p{
     width: 100%;
     padding-top: 0 !important;
     padding-left: 0 !important;
-    font-size: 1em;
+    font-size: 11pt;
     padding-right: 0 !important;
     margin-right: 0 !important;
   }
@@ -5168,18 +5168,18 @@ section {
   #data-viz p, #data-viz2 p, #data-viz4 p,#data-viz9 p,#data-viz5 p, #data-viz6 p,#data-viz7 p, #data-viz8 p{
     text-align: left !important;
     padding-left: 2vw;
-    font-size: 1em !important;
+    font-size: 11pt !important;
     width: 100% !important;
     padding-top: 0 !important;
   }
   .main-viz1 p{
     padding-right: 0;
-    font-size: 1.6em !important;
+    font-size: 11pt !important;
   }
   #conclusion-left, #conclusion-right{
     color:rgb(33, 37, 41);
     width: 100%;
-    font-size: 0.9em;
+    font-size: 11pt !important;
   }
   #conclusion-right{
     margin-top: 10vh;
@@ -5223,7 +5223,7 @@ section {
     background-color: transparent !important;
   }
   #data-viz5a p{
-    font-size: 0.8em !important;
+    font-size: 11pt !important;
     padding-top: 0 !important
   }
   #data-viz9 p{
@@ -5245,7 +5245,7 @@ section {
   #data-viz3 p{
     text-align: left;
     padding-left: 2vw;
-    font-size: 0.9em !important;
+    font-size: 11pt !important;
     width: 100% !important;
     padding-top: 0 !important;
     padding-bottom: 4vh;
@@ -5331,5 +5331,7 @@ section {
     margin-top: 0;
     margin-right: 0;
   }
-  
+  #main{
+    box-sizing: border-box !important;
+}
 }
