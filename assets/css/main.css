@@ -864,6 +864,10 @@
     visibility: hidden;
   }
 }
+#navmenu ul{
+  width: 80%;
+  height: 45%;
+}
 
 #nxt-16{
   position: absolute;
@@ -871,7 +875,6 @@
   left: 91vw;
   top: 1887vh;
 }
-
 #arr-16{
   position: absolute;
   top:1892vh;
@@ -2335,12 +2338,13 @@ section {
   }
   #about-index, #about-geometry{
     visibility: hidden;
+    width: 0;
   }
   .about p{
     text-align: left;
-    font-size: 2vh !important;
+    font-size: 1.6vh !important;
     width: 100%;
-    padding-top: 6vh;
+    padding-top: 2vh;
     padding-right: 0 !important;
   }
   #about-proj{
@@ -2439,7 +2443,7 @@ section {
   }
   #buerkel-right p{
     text-align: left;
-    font-size: 1.9vh !important;
+    font-size: 1.6vh !important;
   }
   .sect-3 {
     min-height: 89vh;
@@ -3044,21 +3048,14 @@ section {
     z-index: 100 !important;
     background-color: transparent !important;
   }
-  #questions-geometry{
-    visibility: hidden;
-  }
+  
   #questions-geometry1{
-    height: 0; 
-    border-top: 40vh solid transparent;
-    border-left: 70vw solid var(--color-primary);
-    border-right: 0;
-    margin-right: 4vw;
-    margin-left: -10vw;
-    margin-top: -40vh;
+    visibility: hidden;
+    width: 0;
   }
   #research-q-box{
     height: 50vh;
-    width: 130vw !important;
+    width: 100vw !important;
     margin-left: -20vw;
     padding-right: 0vw !important;
     padding-top: 0;
@@ -5158,7 +5155,6 @@ section {
     object-fit: contain;
     margin-top: 18vh !important;
   }
-
   #data-viz4 h2, #data-viz4 h3{
     text-align: left !important;
     padding-left: 0 !important;
@@ -5289,4 +5285,46 @@ section {
   #subtitle{
     padding-left: 10vw;
   }
+  .scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: var(--color-primary);
+    width: 0;
+    height: 0;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  .scroll-top i {
+    font-size: 0;
+    color: #ffffff;
+    line-height: 0;
+  }
+  
+  .scroll-top:hover {
+    background-color: rgba(var(--color-primary-rgb), 0.8);
+    color: #ffffff;
+  }
+  
+  .scroll-top.active {
+    visibility: hidden;
+    width: 0;
+    opacity: 0;
+  }
+  #questions-geometry{
+    visibility: hidden;
+    width: 0 !important;
+    height: 0;
+    border-top: 0 solid transparent;
+    border-right:0 solid var(--color-green);
+    z-index: -3;
+    padding-top: 0;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  
 }
