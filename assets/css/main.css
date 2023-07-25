@@ -5110,7 +5110,8 @@ section {
   #data-viz6 h2, #data-viz6 h3,
   #data-viz7 h2, #data-viz7 h3,
   #data-viz8 h2, #data-viz8 h3,
-  #data-viz9 h2, #data-viz9 h3
+  #data-viz9 h2, #data-viz9 h3,
+  #conclusion h2, #conclusion h3
   {
     font-size: 1.6em !important;
     width: 80%;
@@ -5149,6 +5150,46 @@ section {
     font-size: 0.9em !important;
     width: 90% !important;
     padding-top: 0 !important;
+  }
+  #conclusion-left, #conclusion-right{
+    color:rgb(33, 37, 41);
+    width: 80%;
+    font-size: 0.9em;
+  }
+  #conclusion-right{
+    margin-top: 10vh;
+  }
+  #conclusion-left h3{
+    color: rgb(248, 248, 248);
+    padding-top: 5vh;
+  }
+  #con1-geometry{
+    width: 100vw;
+    border-top: 85vh solid rgb(213, 125, 107);
+    margin-top: -85vh;
+  }
+  #con2-geometry{
+    width: 100vw;
+    border-top: 88vh solid rgb(214, 185, 135);
+    margin-top: -88vh;
+  }
+  #con3-geometry{
+    width: 100vw;
+    border-top: 125vh solid rgba(106, 138, 144);
+    margin-top: -120vh;
+    margin-left: 0;
+  }
+  #conclusion-right h3{
+    color:rgb(248, 248, 248);
+  }
+  .future-res{
+    margin-left: 0;
+  }
+  .future-res p{
+    padding-left: 6vw;
+  }
+  .future-res h3{
+    padding-top: 10vh !important;
   }
   #data-viz6 p{
     padding-top: 18vh !important;
@@ -5198,5 +5239,24 @@ section {
   }
   #data-viz4 p{
     padding-top: 25vh !important;
+  }
+  #team h2{
+    font-size: 1.8em !important;
+  }
+  .team{
+    height: 155vh !important;
+  }
+  #team p{
+    width: 80%;
+  }
+  #team .member p{
+    font-size: 0.7em !important;
+  }
+  .member-img{
+    width: 40vw;
+  }
+
+  #contact{
+    opacity: 1 !important;
   }
 }
