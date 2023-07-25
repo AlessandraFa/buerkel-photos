@@ -22,14 +22,6 @@
   color: #f8f8f8;
   background: #6A8A90;
 }
-@media (min-width: 575.98px) {
-.modal, #pc-modal, .modal-dialog{
-  display: none !important;
-}
-.modal-backdrop{
-  background-color: transparent !important;
-}
-}
 
 /* Global Colors */
 :root {
@@ -5346,32 +5338,5 @@ section {
     padding-top: 0;
     margin-top: 0;
     margin-right: 0;
-  }
-  #pc-modal,.modal{
-    width: 95vw;
-    padding-right: 0 !important;
-  }
-  .modal-header, .modal-body, .modal-footer{
-    background-color:#D57D6B !important;
-    color:rgb(248, 248, 248);
-    border: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-  }
-  .modal-header{
-    text-transform: uppercase;
-    padding-bottom: 0;
-  }
-  .modal-body{
-    padding-bottom: 0 !important;
-  }
-  .modal-content{
-    background-color: #D57D6B !important;
-  }
-  .modal button{
-    background-color: transparent;
-    border: none;
-    font-family: var(--font-primary);
-    text-transform: uppercase;
   }
 }

@@ -298,10 +298,3 @@ function imageZoom(imgID, resultID) {
     return {x : x, y : y};
   }
 }
-
-const myModal = new bootstrap.Modal('#pc-modal')
-
-window.addEventListener('DOMContentLoaded', () => {
-  myModal.show();
-});
-
