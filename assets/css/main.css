@@ -414,13 +414,11 @@
     z-index: 10;
   }
   #vl7{
-    left: 92.24vw;
-    top:869vh;
-    height: 56vh;
+    visibility: hidden;
   }
   #hl8{
-    top:925vh;
-    width: 86.75vw;
+    visibility: hidden;
+
   }
   #vl8{
     top:926vh;
@@ -493,7 +491,7 @@
   border-left: 86.5vw solid rgba(106, 138, 144);
   z-index: -3;
   position: relative;
-  margin-top: -35vh;
+  margin-top: -32vh;
   margin-left: 2vh;
 }
 }
@@ -3093,25 +3091,26 @@ section {
   text-transform: uppercase;
   text-align: right;
   padding-right: 10vh;
+  padding-top: 10vh;
 }
 #data-pres-left .row{
-  padding: 14vh 5vw 2vh 4vw;
+  padding: 24vh 5vw 2vh 4vw;
 }
 
 #databasecode{
   font-size: 1.5vh !important;
-  padding-top: 3vh;
+  padding-top: 6vh;
 }
 
 @media (max-width: 1512px) { 
   .sect-8 .content h2 {
-    padding-top: 5vh;
+    padding-top: 0vh;
   }
   .main-data-pres{
-    font-size: 0.85em;
+    font-size: 0.75em;
   }
   #data-pres-left .row{
-    padding: 22vh 2vh 2vh 4vw;
+    padding: 32vh 2vh 2vh 4vw;
   }
   
 }
@@ -4016,7 +4015,7 @@ section {
 }
   .future-res h3{
     padding-left: 6vh !important;
-    padding-top: 2vh !important;
+    padding-top: 4vh !important;
   }
   .future-res p{
     padding-right: 16vw;
